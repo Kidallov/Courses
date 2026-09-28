@@ -186,6 +186,20 @@ print(numbers)
 [10, 30, 20]
 ```
 
+```python
+numbers = [10, 20, 30, 20]
+
+numbers.remove(numbers[2])
+
+print(numbers)
+```
+
+Результат:
+
+```text
+[10, 20, 20]
+```
+
 Удалился только первый найденный `20`.
 
 Если указанного элемента нет, Python выдаст ошибку `ValueError`.
